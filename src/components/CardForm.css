@@ -1,0 +1,14 @@
+.formDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputDiv {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 2px;
+    gap: 0.3rem;
+}

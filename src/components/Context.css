@@ -1,0 +1,21 @@
+.btnDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creditCard {
+    background-color: yellow;
+}
+
+.payPal {
+    background-color: aqua;
+}
+
+.contextBtn-disabled{
+    display: none;
+}
+
+.contextBtn{
+    display: block;
+}
