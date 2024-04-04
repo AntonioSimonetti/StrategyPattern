@@ -20,7 +20,7 @@ const Context = ({ paymentMethod, onStrategyChange }) => {
 
     if (selectedStrategy) {
       selectedStrategy.processPayment();
-      onStrategyChange(selectedStrategy) //lifting state up
+      onStrategyChange(selectedStrategy) 
     }
     
   };
