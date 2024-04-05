@@ -4,6 +4,12 @@ import { FaPaypal, FaCreditCard } from 'react-icons/fa'; // Importa le icone di 
 export default function PaymentOptions({ handleChange, value }) {
 
   return (
+    <>
+    <div className='main-div'>
+    <div className='text-div'>
+    <h3>Payment Details</h3>
+    <h5>Method</h5>
+    </div>
     <div className="payment-options">
        <div className={`payment-option ${value === 'CreditCard' ? 'selected' : 'creditcardDiv'}`} onClick={() => handleChange({ target: { value: 'CreditCard' } })}>
          <div className="icon">
@@ -16,6 +22,8 @@ export default function PaymentOptions({ handleChange, value }) {
          </div>
       </div> 
     </div>
+    </div>
+    </>
   );
 }
 
