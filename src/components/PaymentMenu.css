@@ -11,13 +11,3 @@
     font-weight: lighter;
     color: #338085
 }
-
-.selector{
-    display: flex;
-    width: 100%;
- 
-}
-
-.option-placeholder {
-    display: none;
-}

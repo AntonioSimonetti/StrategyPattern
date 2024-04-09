@@ -1,14 +1,80 @@
+.formDiv input:focus {
+    outline: none;
+    border-color: red;
+  }
+
+
+
 .formDiv {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
+label {
+    font-weight: bolder;
+  }
+
+.formDiv input {
+    background-color: #d4f0f2;
+    border-radius: 4px;
+    border: 2px solid #338085;
+    padding: 6px;
+    color: #338085;
+    font-weight: bold;
+}
+
+.formDiv input.invalid {
+    border-color: red;
+    
+}
+
+.formDiv input.valid {
+    border-color: rgb(26, 253, 26);
+}
+
+.formDiv input::placeholder {
+    color:#338085; 
+    font-weight: lighter;
+  }
+
 .inputDiv {
-    display: flex;
+    display: flex;  
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     padding: 2px;
     gap: 0.3rem;
 }
+
+.bottom-div {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.inputDivBottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.inputWithIcon {
+    position: relative;
+  }
+  
+.inputWithIcon input {
+    padding-left: 40px; 
+  }
+  
+.inputWithIcon .icon {
+    position: absolute;
+    left: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+  }
