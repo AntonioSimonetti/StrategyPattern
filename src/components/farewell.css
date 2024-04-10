@@ -1,0 +1,13 @@
+.farewell-div {
+    border: none;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: 70vh;
+    background-color: white;
+    color: #338085;
+    font-size: 20px;
+}

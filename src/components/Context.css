@@ -4,18 +4,13 @@
     align-items: center;
 }
 
-.creditCard {
-    background-color: yellow;
-}
-
-.payPal {
-    background-color: aqua;
-}
-
-.contextBtn-disabled{
-    display: none;
-}
-
-.contextBtn{
-    display: block;
+.purchase-btn {
+    background-color: #338085;
+    border: none;
+    border-radius: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: white;
 }

@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import './farewell.css';
+
 
 
 export default function Farewell ({onComponent}){
@@ -10,8 +12,9 @@ export default function Farewell ({onComponent}){
 
 
     return(
-    <div>
-        <p>Grazie per aver pagato con {onComponent.name}</p>
+    <div className='farewell-div'>
+        <h5>You paid by {onComponent.name}</h5>
+        <h5>Thank you.</h5>
     </div>
     )
 }

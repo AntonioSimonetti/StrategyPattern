@@ -5,6 +5,7 @@ import './App.css'
 
 function App() {
   const [componentToRender, setComponentToRender] = useState(null);
+  //andrebbe messa una funzione che controlla la validazione totale del form ma è solo un esercizio..
 
   const handleChangeComponent = (componentName) => {
     setComponentToRender(componentName);

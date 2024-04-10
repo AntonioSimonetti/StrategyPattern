@@ -78,3 +78,17 @@ label {
     top: 50%;
     transform: translateY(-50%);
   }
+
+  @media screen and (max-width: 245px) {
+    .formDiv {
+      font-size: 5px;
+    
+    }
+
+    .formDiv input{
+      width: 50vw;
+      height: 1px;
+    
+    }
+ 
+ }

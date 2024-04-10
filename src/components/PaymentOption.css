@@ -61,8 +61,16 @@
 
 @media screen and (max-width: 600px) {
    .payment-options {
-    width: 42%;
+    width: 60%;
     height: 5vh;  
     }
 
-  }
+}
+
+@media screen and (max-width: 245px) {
+    .main-div {
+        font-size: 10px;
+    }
+    
+    
+}

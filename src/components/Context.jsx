@@ -25,12 +25,9 @@ const Context = ({ paymentMethod, onStrategyChange }) => {
     
   };
 
-  const buttonClassName = paymentMethod ? 'contextBtn' : 'contextBtn-disabled';
-
-
   return (
     <div className='btnDiv'>
-      <button className={buttonClassName} disabled={!paymentMethod} onClick={handlePay}>{paymentMethod}</button>
+      <button className="purchase-btn" onClick={handlePay}>Purchase</button>
     </div>
   );
 };
